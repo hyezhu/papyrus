@@ -1,0 +1,35 @@
+@import "../src/utilities/variables.styles.scss";
+@import "../src/utilities/typography.styles.scss";
+
+.section-features {
+  margin-top: $margin-top-big;
+  margin-bottom: $margin-bottom-bg;
+  background-color: $color-primary-3;
+}
+.cards-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  width: 30rem;
+  height: 50vh;
+  //   overflow: visible;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: $color-background !important;
+  margin-bottom: $margin-bottom-sm;
+  -webkit-box-shadow: 4px 11px 17px -9px rgba(0, 0, 0, 0.68);
+  -moz-box-shadow: 4px 11px 17px -9px rgba(0, 0, 0, 0.68);
+  box-shadow: 4px 11px 17px -9px rgba(0, 0, 0, 0.68) !important;
+
+  &-icon {
+    width: 20rem;
+    height: 20rem;
+    color: $color-accent;
+  }
+}

@@ -1,0 +1,17 @@
+@keyframes bounce {
+  60%, 80%, to { 
+    transform: translateY(180%); 
+    animation-timing-function: cubic-bezier(.215, .61, .355, 1);
+  }
+  70% { transform: translateY(90%); }
+  90% { transform: translateY(50%); }
+}
+
+@keyframes roll {
+  from { 
+    transform: translateY(180%) rotate(0deg);
+  }
+  to { 
+    transform: translate(180%, 180%) rotate(359deg);
+  }
+}

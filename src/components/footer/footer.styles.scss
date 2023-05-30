@@ -1,0 +1,27 @@
+@import "../src/utilities/variables.styles.scss";
+@import "../src/utilities/typography.styles.scss";
+
+.section-footer{
+    background-color: $color-primary-3;
+    text-align: center;
+    margin-top: 12rem;
+}
+
+.logo-footer {
+    width: 8rem;
+    height: 8rem;
+    margin: 2rem;
+    border-radius: 50%;
+    border: 2px solid $color-primary-1;
+}
+
+.footer-content {
+    margin: 3rem;
+    padding: 3rem 0;
+    color: $color-primary-1;
+}
+
+.footer-content a {
+    text-decoration: underline;
+    color: $color-primary-1;
+}
